@@ -1,0 +1,1 @@
+Stm32f401re with sht10 SMBus digital temperature sensor. Results are displayed on a 4-bit hitachi hd44780 based character lcd. The project was implemented in Keil uVision ide, no HAL libraries were used.
