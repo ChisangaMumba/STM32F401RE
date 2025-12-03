@@ -1,0 +1,1 @@
+Stm32f401re with tcn75 i2c digital temperature sensor. Results are displayed on an i2c-based 7-segment display, the ht16k33. The display's custom algorithm supports leading zero suppression, decimal point display, and limited ascii character and special characters output. The project was implemented in Keil uVision ide, no HAL libraries were used.
