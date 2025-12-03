@@ -1,0 +1,1 @@
+Stm32f401re with tc72 spi digital temperature sensor. Results are displayed on an spi based 7-segment display, the max7219. The display's custom algorithm supports leading zero suppression, decimal point display, and limited ascii character and special characters output. The project was implemented in Keil uVision ide, no HAL libraries used.
