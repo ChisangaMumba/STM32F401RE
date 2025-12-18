@@ -1,0 +1,8 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+".\objects\startup_stm32f401xe.o"
+".\objects\system_stm32f4xx.o"
+--strict --scatter ".\Objects\stm32f401re_tc74_ht16k33_16Seg.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\stm32f401re_tc74_ht16k33_16Seg.map" -o .\Objects\stm32f401re_tc74_ht16k33_16Seg.axf
