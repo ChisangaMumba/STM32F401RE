@@ -1,0 +1,8 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+".\objects\startup_stm32f401xe.o"
+".\objects\system_stm32f4xx.o"
+--strict --scatter ".\Objects\max3234_max7219_7seg_16digits.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\max3234_max7219_7seg_16digits.map" -o .\Objects\max3234_max7219_7seg_16digits.axf
