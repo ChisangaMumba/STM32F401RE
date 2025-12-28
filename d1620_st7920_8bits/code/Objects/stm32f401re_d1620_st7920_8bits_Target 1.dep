@@ -1,0 +1,41 @@
+Dependencies for Project 'stm32f401re_d1620_st7920_8bits', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCompiler_506_Windows_x86_b960
+F (.\main.c)(0x68C15E82)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\chisa\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F401xE -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\chisa\AppData\Local\Keil_v5\ARM\ARMCompiler_506_Windows_x86_b960\include\stdio.h)(0x5E8E9122)
+I (C:\Users\chisa\AppData\Local\Keil_v5\ARM\ARMCompiler_506_Windows_x86_b960\include\stdint.h)(0x5E8E9122)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66A0D429)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x66A0D428)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x66A0D243)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66A0D243)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66A0D243)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66A0D243)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x66A0D243)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66A0D429)
+I (./assets/gpio/gpio_c.h)(0x68A4EF29)
+I (./assets/gpio/gpio_h.h)(0x68A48FA4)
+I (./assets/delay/delay_c.h)(0x68A5113E)
+I (assets/ds1620/ds1620_c.h)(0x68C15B5B)
+I (assets/ds1620/ds1620_h.h)(0x68C15B78)
+I (assets/ds1620/threeWire.h)(0x68A511ED)
+I (./assets/st7920/st7920_c.h)(0x68C15ED2)
+I (./assets/st7920/st7920_h.h)(0x68C15C0C)
+I (C:\Users\chisa\AppData\Local\Keil_v5\ARM\ARMCompiler_506_Windows_x86_b960\include\stdarg.h)(0x5E8E9122)
+F (.\assets\gpio\gpio_c.h)(0x68A4EF29)()
+F (.\assets\gpio\gpio_h.h)(0x68A48FA4)()
+F (.\assets\delay\delay_c.h)(0x68A5113E)()
+F (.\assets\ds1620\ds1620_c.h)(0x68C15B5B)()
+F (.\assets\ds1620\ds1620_h.h)(0x68C15B78)()
+F (.\assets\ds1620\threeWire.h)(0x68A511ED)()
+F (.\assets\st7920\st7920_c.h)(0x68C15ED2)()
+F (.\assets\st7920\st7920_h.h)(0x68C15C0C)()
+F (RTE/Device/STM32F401RETx/startup_stm32f401xe.s)(0x66A0D429)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\chisa\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 540" --pd "STM32F401xE SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f401xe.lst --xref -o .\objects\startup_stm32f401xe.o --depend .\objects\startup_stm32f401xe.d)
+F (RTE/Device/STM32F401RETx/system_stm32f4xx.c)(0x66A0D42A)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\chisa\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="540" -DSTM32F401xE -D_RTE_-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66A0D429)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x66A0D428)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x66A0D243)
+I (C:\Users\chisa\AppData\Local\Keil_v5\ARM\ARMCompiler_506_Windows_x86_b960\include\stdint.h)(0x5E8E9122)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x66A0D243)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66A0D243)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66A0D243)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x66A0D243)
+I (C:\Users\chisa\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66A0D429)
