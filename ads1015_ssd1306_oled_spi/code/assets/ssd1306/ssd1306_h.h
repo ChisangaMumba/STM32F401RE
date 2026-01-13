@@ -1,0 +1,39 @@
+#ifndef SSD1306_H
+#define SSD1306_H
+//------------------------------------------------------------------------------
+#include <stdarg.h> // Required for variadic functions
+#include "../delay/delay_c.h"
+#include "../spi/soft_spi.h"
+#include "charset.h"
+//------------------------------------------------------------------------------
+#define CS1												PA3
+#define DC												PA6
+#define RST												PA7
+//------------------------------------------------------------------------------
+// 																SSD1306 Commands
+//------------------------------------------------------------------------------
+#define SSD1306_DISPLAY_OFF 			0xAE
+#define SSD1306_DISPLAY_ON  			0xAF
+#define SSD1306_SET_CONTRAST 			0x81
+#define SSD1306_DISPLAY_RAM 			0xA4
+#define SSD1306_MEMORY_MODE 			0x20
+#define SSD1306_SET_PAGE_ADDR 		0xB0
+#define SSD1306_SET_COLUMN_ADDR 	0x21
+#define SCREEN_WIDTH 							128
+#define SCREEN_HEIGHT							64
+
+#define font1        							0x00
+#define font2        							0x01
+//------------------------------------------------------------------------------
+void ssd1306_init(void);
+void ssd1306_command(uint8_t command);
+void ssd1306_data(uint8_t data_);
+void ssd1306_setAddress(uint8_t row, uint8_t col);
+void ssd1306_print(uint8_t row, uint8_t col, uint8_t fontNo, const char* format, ...);
+void ssd1306_string(uint8_t row, uint8_t col, uint8_t fontNo, char str[]);
+void ssd1306_displayImage(uint16_t width, uint16_t height, const uint8_t *bitmap);
+void ssd1306_reset(void);
+void writeChar(uint8_t fontNo, uint8_t chr);
+inline uint8_t isPrint(char chr);
+//------------------------------------------------------------------------------
+#endif
